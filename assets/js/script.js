@@ -123,6 +123,42 @@ $( "#save-btn8" ).click(function() {
 //     document.getElementById("textarea").value = myStorage;
 // }
 
+currentTime = document.getElementById('currentDay')
+var m = moment().format('MMMM Do YYYY, h:mm:ss a')
+currentTime.innerHTML = "The Current Date and Time is " + m
+
+function Time() {
+
+    var hour = $(".hour").text();
+    var timelist = hour.toString();
+
+    timearray = timelist.match(/.{1,5}/g);
+    console.log(timearray);
+    m = (moment().format("HH"))
+
+
+
+    for (let i = 0; i < timearray.length; i++) {
+        classname = ".text" + i;
+        new_time = timearray[i].substring(0,2)
+        if (new_time >= 1 && new_time <= 5) {
+            new_time = parseInt(new_time) + 12
+        }
+        classname = classname.toString()
+
+        $(classname).removeClass("past present future");
+        if (m > new_time) {
+            $(classname).addClass("past");
+        } else if (m < new_time) {
+            $(classname).addClass("future");
+        } else {
+            $(classname).addClass("present");
+        }
+    }
+}
+
+Time();
+
 Load();
 Load1();
 Load2();

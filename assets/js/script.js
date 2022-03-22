@@ -132,7 +132,7 @@ function Time() {
     var hour = $(".hour").text();
     var timelist = hour.toString();
 
-    timearray = timelist.match(/.{1,5}/g);
+    timearray = timelist.match(/.{1,8}/g);
     console.log(timearray);
     m = (moment().format("HH"))
 

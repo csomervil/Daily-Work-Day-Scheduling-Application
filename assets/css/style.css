@@ -33,10 +33,10 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
-.hour {
+.hour-tab {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -63,10 +63,12 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  display: flex;
+  justify-content: center;
+
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
-

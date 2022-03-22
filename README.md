@@ -11,7 +11,7 @@ https://github.com/csomervil/Daily-Work-Day-Scheduling-Application/archive/refs/
 
 # Preview
 
-Screenshots of the Work Scheduler webpage.
+Screenshots of the Work Scheduler webpage (distortion is due to screenshot alignment).
 
 ![Work-Scheduler3](https://user-images.githubusercontent.com/100229796/159572724-397f760d-3714-4ac7-ae4f-5061f1ab8f11.png)
 ![Work-Scheduler1](https://user-images.githubusercontent.com/100229796/159571701-e55adefa-a380-45f2-bfef-5001a1dc969a.png)

@@ -1,5 +1,5 @@
 
-
+// Events for Each Textbox to Save and Display
 $( "#save-btn" ).click(function() {
     var myStorage = document.getElementById("textarea").value;
     localStorage.setItem("storage", myStorage);
@@ -123,10 +123,12 @@ $( "#save-btn8" ).click(function() {
 //     document.getElementById("textarea").value = myStorage;
 // }
 
+// To Display Current Time
 currentTime = document.getElementById('currentDay')
 var m = moment().format('MMMM Do YYYY, h:mm:ss a')
 currentTime.innerHTML = "The Current Date and Time is " + m
 
+// Function that Takes the Time in Each Row and Changes the Colour of the Corresponding Textbox
 function Time() {
 
     var hour = $(".hour").text();
@@ -135,8 +137,6 @@ function Time() {
     timearray = timelist.match(/.{1,8}/g);
     console.log(timearray);
     m = (moment().format("HH"))
-
-
 
     for (let i = 0; i < timearray.length; i++) {
         classname = ".text" + i;

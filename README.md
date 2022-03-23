@@ -6,7 +6,7 @@ The Daily Work Day Scheduling Application is a page made in Javascript (jQuery),
 
 # Installation
 
-The link to the Work Schedule webpage is provided below.
+The link to the Work Scheduler webpage is provided below.
 https://github.com/csomervil/Daily-Work-Day-Scheduling-Application/archive/refs/heads/main.zip
 
 # Preview
